@@ -24,7 +24,7 @@ Window:NewCommand(string name) ->
 			Command:Add(string name, function callback) -> nil
 			  * Used for making a command
 			Command:Delete(string name) -> nil
-				* Used for deleting a command
+			  * Used for deleting a command
 		]
 		* Used to create a new command
 ```
