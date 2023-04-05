@@ -4,7 +4,7 @@ by ZuxTheTank
 
 How to use:
 (See example)
-
+`
 library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuxTheTank/EarWax/main/EarWax"))() 
 
 library.New(table[strng index = value] options) -> Window
@@ -27,3 +27,4 @@ Window:NewCommand(string name) ->
 				* Used for deleting a command
 		]
 		* Used to create a new command
+`
