@@ -1,0 +1,39 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuxTheTank/EarWax/main/EarWax"))() 
+
+local player = game:GetService("Players").LocalPlayer 
+local character = player.Character
+
+local Window = library.New({
+	name = "EarWax",
+	position = UDim2.new(0.81809783, 0, 0.91538465, 0),
+	font = "Fantasy",
+	command_hint = true,
+	hint_color = Color3.new(255, 255, 255),
+	padding = 0.55,
+})
+
+Window:ClearLog()
+
+Window:Log({
+    "EarWax 0.0.1",
+    "Example"
+}, Color3.new(255, 0, 0))
+
+local PlayerCommand = Window:NewCommand("player")
+
+PlayerCommand:Add("speed", function(value)
+    value = tonumber(value)
+    
+    if value then 
+        character.Humanoid.WalkSpeed = value
+    end
+end)
+
+PlayerCommand:Add("jump", function(value)
+    value = tonumber(value)
+    
+    if value then 
+        character.Humanoid.JumpPower = value
+        character.Humanoid.UseJumpPower = true
+    end
+end)
