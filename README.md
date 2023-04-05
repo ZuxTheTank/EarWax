@@ -7,8 +7,8 @@ How to use:
 
 `library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuxTheTank/EarWax/main/EarWax"))()`
 
-`library.New(table[strng index = value] options) -> Window
-		* Used to create a new Window` 
+```library.New(table[strng index = value] options) -> Window
+		* Used to create a new Window``` 
     
 Window:Log(table[string] text, Color3 color) -> nil
 		* Used for writing text into the gui 
