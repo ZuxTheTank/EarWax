@@ -6,6 +6,7 @@ local character = player.Character
 local Window = library.New({
 	name = "EarWax",
 	position = UDim2.new(0.81809783, 0, 0.91538465, 0),
+	size = UDim2.new(0.163065553, 0, 0.0634615421, 0),
 	font = "Fantasy",
 	command_hint = true,
 	hint_color = Color3.new(255, 255, 255),
