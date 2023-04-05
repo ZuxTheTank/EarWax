@@ -2,7 +2,7 @@
 EarWax GUI Library for Roblox
 by ZuxTheTank 
 
-###How to use:###
+How to use:
 (See example)
 ```
 library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuxTheTank/EarWax/main/EarWax"))()
