@@ -4,8 +4,8 @@ by ZuxTheTank
 
 How to use:
 (See example)
-`
-library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuxTheTank/EarWax/main/EarWax"))() 
+
+`library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZuxTheTank/EarWax/main/EarWax"))()`
 
 library.New(table[strng index = value] options) -> Window
 		* Used to create a new Window 
